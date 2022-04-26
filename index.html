@@ -11,25 +11,44 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Social proof section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+
       .social{
+        margin: 100px;
         display: flex;
         flex-wrap: wrap;
         background-color: blanchedalmond;
+        font-family: 'League Spartan', sans-serif;
       }
       .encabezado{
         background-color: aqua;
         width: 50%;
-        height: 50px;
+        height: 50%;
+        text-align: left;
+        background-color: hsl(0, 0%, 100%);
+      }
+      .encabezado h1{
+        font-weight: 500;
+        font-size: 60px;
+        color: hsl(300, 43%, 22%);
+      }
+      .encabezado p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        color: hsl(303, 10%, 53%);
       }
       .calificacion{
         background-color: blue;
         width: 50%;
-        height: 50px;
+        height: 50%;
       }
       .comentarios{
         background-color: aquamarine;
@@ -47,9 +66,17 @@
   </head>
   <body>
     <div class="social">
-      <div class="encabezado"></div>
+      <div class="encabezado">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
       <div class="calificacion"></div>
-      <div class="comentarios"></div>
+      <div class="comentarios">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
     
 
